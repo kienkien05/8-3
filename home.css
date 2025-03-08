@@ -996,7 +996,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   background-image: linear-gradient(to top, #9370DB, #DA70D6);
 }
 
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
 .flowers {
   display: none;
@@ -1045,7 +1045,7 @@ body.flower-active .flowers {
   transform: translateX(-50%);
   font-size: 3rem;
   font-weight: bold;
-  font-family: 'Dancing Script';
+  font-family: 'Pancifico';
   color: #ff69b4;
   text-shadow: 0 0 10px #ff1493, 0 0 20px #ff00ff, 0 0 30px #ff69b4;
   display: none;
