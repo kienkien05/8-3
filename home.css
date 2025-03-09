@@ -996,7 +996,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   background-image: linear-gradient(to top, #9370DB, #DA70D6);
 }
 
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  @import url('https://fonts.googleapis.com/css2?family=Pancifico&display=swap');
 
 .flowers {
   display: none;
