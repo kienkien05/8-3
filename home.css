@@ -9,18 +9,6 @@
 :root {
   --dark-color: #000;
 }
-@media (max-width: 768px) {
-  .flowers {
-    transform: scale(1.8);
-    transform-origin: center bottom;
-  }
-
-  .greeting {
-    font-size: 2em;
-    text-align: center;
-    width: 100%;
-  }
-}
 
 body {
   display: flex;
@@ -1008,8 +996,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   background-image: linear-gradient(to top, #9370DB, #DA70D6);
 }
 
-  @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Itim|Lobster|Montserrat:500|Noto+Serif|Nunito|Patrick+Hand|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab|Saira');
 .flowers {
   display: none;
 }
@@ -1038,7 +1025,7 @@ body.flower-active .flowers {
 .show-button:hover {
   background: linear-gradient(45deg, #444, #111);
   box-shadow: 0 0 15px rgba(240, 240, 240, 0.8), 
-              0 0 30px rgba(255, 20, 147, 0.6);
+              0 0 30px rgba(78, 78, 78, 0.6);
 }
 
 .fade-out {
@@ -1059,7 +1046,7 @@ body.flower-active .flowers {
   text-align: center;
   width: 100%;
   font-weight: bold;
-  font-family: 'Pancifico','Brush Script MT';
+  font-family: 'Saira', sans-serif;
   color: #ff69b4;
   text-shadow: 0 0 10px #ff1493, 0 0 20px #ff00ff, 0 0 30px #ff69b4;
   display: none;
