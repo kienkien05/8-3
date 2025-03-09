@@ -9,6 +9,18 @@
 :root {
   --dark-color: #000;
 }
+@media (max-width: 768px) {
+  .flowers {
+    transform: scale(1.8);
+    transform-origin: center bottom;
+  }
+
+  .greeting {
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+  }
+}
 
 body {
   display: flex;
