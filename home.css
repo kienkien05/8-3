@@ -1044,6 +1044,8 @@ body.flower-active .flowers {
   left: 50%;
   transform: translateX(-50%);
   font-size: 3rem;
+  text-align: center;
+  width: 100%;
   font-weight: bold;
   font-family: 'Pancifico';
   color: #ff69b4;
