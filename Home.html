@@ -353,15 +353,13 @@
                   let button = document.getElementById("showButton");
                   let greeting = document.getElementById("greeting");
       
-                  // Nút mờ dần rồi biến mất
                   button.classList.add("fade-out");
       
                   setTimeout(() => {
-                      button.style.display = "none"; // Ẩn nút sau khi mờ dần
-                      greeting.classList.add("show"); // Hiện chữ
-                  }, 2000); // Sau 2 giây
+                      button.style.display = "none";
+                      greeting.classList.add("show");
+                  }, 2000);
       
-                  // Sau 4 giây, hoa mới nở
                   setTimeout(() => {
                       document.body.classList.add("flower-active");
                   }, 4000);
